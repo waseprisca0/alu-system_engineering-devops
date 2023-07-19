@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#not try to authenticate using a password
+host
+   HostName 98.98.98.98
+   IdentifyFile ~/.ssh/school
+   PasswordAuthentication no
